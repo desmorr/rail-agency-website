@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rail Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Rail Agency Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Train Schedule</a></li>
+                <li><a href="#">Route Planner</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <h1>Find Your Train</h1>
+            <div class="search-container">
+                <label for="from-station">From:</label>
+                <select id="from-station">
+                    <!-- Add options dynamically through JavaScript -->
+                </select>
+
+                <label for="to-station">To:</label>
+                <select id="to-station">
+                    <!-- Add options dynamically through JavaScript -->
+                </select>
+
+                <button id="search-btn">Search</button>
+            </div>
+        </section>
+
+        <section id="schedule-section">
+            <h2>Train Schedule</h2>
+            <table id="schedule-table">
+                <!-- Schedule will be populated dynamically -->
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rail Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
